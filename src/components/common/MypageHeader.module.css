@@ -1,0 +1,25 @@
+.HeaderDiv {
+   display: flex;
+   margin-right: 30px;
+   border-bottom: solid 1px #cfcfcf;
+   margin-bottom: 10px;
+}
+
+.HeaderDiv > ul > li {
+   float: left;
+   margin-left: -30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 50px;
+} 
+
+.HeaderDiv a{
+   font-size: 20px;
+   text-decoration: none;
+   color: #505050;
+}
+
+.HeaderDiv a:hover{
+   color: #007681;
+} 
+ 

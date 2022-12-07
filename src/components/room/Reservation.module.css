@@ -1,0 +1,16 @@
+.rvtbdDiv {
+    margin-left: 20%;
+    padding: 4px;
+    font-size: 16px;
+    color: #8D8D8D;
+}
+
+.rvtbdDiv > td {
+    color: #8D8D8D;
+    padding: 5px 50px;
+    border-bottom: 1px solid #8d8d8d;
+} 
+
+.rvtbdDiv > td:hover {
+    color: #fd9797;
+}

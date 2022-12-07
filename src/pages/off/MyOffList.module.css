@@ -1,0 +1,102 @@
+.submenu {
+    width: 460px;
+    height: 840px;
+    border-right: solid 1px #cfcfcf;
+    }
+
+.submenu > h3 {
+    color: #505050;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+    
+.submenuDiv {
+    margin: 18px;
+    margin-left: 255px;
+}
+
+.submenuDiv h4 {
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.submenuUl > li {
+    color: #505050;
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: -26px;
+}
+
+.MyOffListDiv {
+    position: fixed;
+    left: 700px;
+    top: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: bold;
+    width: 900px;
+    height: 600px;
+    padding-top: 25px;
+}
+
+.MyOffListDiv span {
+    font-size: 25px;
+    color: #505050;
+    margin-left: 25px;
+}
+
+.MyOffListTable {
+    margin-top: 35px;
+    margin-left: 25px;
+    width: 840px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.MyOffListTable th {
+    border-top: 1px solid #c4bebe;
+    border-bottom: 1px solid #c4bebe;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ffffff;
+}
+
+.MyOffListTable td {
+    color: #505050;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.pageDiv {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    bottom: 30px;
+}
+
+.pagingBtn {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pagingBtn:hover {
+    cursor: pointer;
+}
+
+.num {
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.num:hover {
+    background-color: #99C4CA;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.roomDiv{
+    width: 180px;
+    height: 200px;
+    padding: 40px;
+    float: left;
+    text-align: center;
+}
+
+.roomDiv img {
+    width: 260px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.roomDiv h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #8D8D8D;
+    padding-left: 80px;
+}

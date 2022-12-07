@@ -1,0 +1,65 @@
+.HeaderDiv {
+   border-bottom: 1px solid  #C6C6C6;
+   width: 80%;
+   margin-left: 20px;
+   position: fixed;
+   left: 220px;
+   
+}
+
+.HeaderDiv > ul > li {
+   
+   float: left;
+   padding-right: 50px;
+   padding-top: 20px;
+   color: #8D8D8D;
+
+}
+
+.HeaderDiv a{
+   text-decoration: none;
+   color: #8D8D8D;
+}
+
+.HeaderDiv a:hover{
+   
+   color: #D34C4C;
+}
+
+/* .SubmenuDiv{
+   float:left;
+   width: 200px;
+   height: 70vh;
+   padding-top: 100px;
+   color: #8D8D8D;
+   text-align: center;
+   
+}
+
+.SubmenuDiv h2{
+   padding-bottom: 16px;
+}
+
+.SubmenuDiv ul li{
+
+   color: #5a5a5a;
+}
+
+.SubmenuDiv > ul > li > a{
+   color: #5a5a5a;
+   text-decoration: none;
+}
+
+.SubmenuDiv > ul > li > a:hover{
+   color: #D34C4C;
+} */
+
+.HeaderBtn {
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+.HeaderBtn:hover{
+   color: #D34C4C;
+}

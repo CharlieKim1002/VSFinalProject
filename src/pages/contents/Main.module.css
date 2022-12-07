@@ -1,0 +1,94 @@
+.ContentDiv {
+   float:left;
+   background-color: aquamarine;
+   margin-top: 10px;
+   width: 130vh;
+   height: 90vh;
+}
+
+.backgroundDiv {
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	background: linear-gradient(180deg, #71A1BC 0%, rgba(114, 218, 205, 0.5) 100%); 
+}
+
+.loginDiv{
+   position: fixed;
+   left: 45%;
+   top: 25%;
+   text-align: center;
+}
+
+.loginDiv img{
+    width: 180px;
+}
+
+.loginDiv > h2 {
+	margin-bottom: 50px;
+	color: white;
+
+}
+
+.loginDiv input{
+   margin-bottom: 20px;
+   padding: 8px;
+   border-color: #75B2C7;
+}
+
+.loginDiv input:focus { outline: none; background-color: #EEF1F6;}
+.loginDiv input:focus::placeholder { opacity:  0;}
+
+.loginDiv h3{
+   text-align: left;
+   margin-left: 33px;
+   margin-bottom: 5px;
+   
+}
+
+.loginDiv p{
+   float: center;
+   font-size: 16px;
+}
+
+.buttonArea {
+	display: flex;
+
+}
+
+.loginBtn{
+  	margin: 10px 0 0 33px;
+   	background-color:#2F535F;
+	border-radius:7px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	padding:10px 18px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.loginBtn:hover {
+	background:linear-gradient(to bottom, #2F535F 5%, #75B2C7 100%);
+}
+
+.findBtn{
+	
+   	margin: 10px 10px 0 15px;
+   	background-color:#2F535F;
+	border-radius:7px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	font-weight: bold;
+	padding:10px 18px;
+	text-decoration:none;
+}
+.findBtn:hover {
+	background:linear-gradient(to bottom, #2F535F 5%, #75B2C7 100%);
+}
+

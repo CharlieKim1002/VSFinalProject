@@ -1,0 +1,63 @@
+.deptTableDiv {
+    position: fixed;
+    left: 35%;
+    top: 170px;
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 1100px;
+    height: 600px;
+    padding-top: 25px;
+}
+
+.registBtn {
+    padding: 5px;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+.submenu {
+    width: 460px;
+    height: 640px;
+    border-right: solid 1px #cfcfcf;
+    }
+
+.submenu > h3 {
+    color: #505050;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+    
+.submenuDiv {
+    margin: 30px;
+    margin-left: 255px;
+}
+
+.submenuDiv h4 {
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.submenuUl > li {
+    color: #505050;
+    margin-bottom: -29px;
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: -26px;
+}
+
+.registBtn {
+    padding: 10px 18px;
+    margin-left: 430px;
+    margin-bottom: 10px;
+    bottom: 83%;
+    position: fixed;
+    background-color:#2F535F;
+	border-radius:7px;
+	border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-decoration:none;
+}

@@ -1,0 +1,91 @@
+.container {
+    position: fixed;
+    left: 820px;
+    top: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: bold;
+    width: 600px;
+    height: 550px;
+    padding-top: 50px;
+    z-index: 100;
+}
+
+.container span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #505050;
+    margin-left: 50px;
+}
+
+.table {
+    width: 400px;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: 20px;
+    color: #505050;
+}
+
+.table th {
+    width: 200px;
+    text-align: left;
+}
+
+.table input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0d9d9;
+    text-align: center;
+}
+
+.modifyBtn1 {
+    background-color:#8cb5be;
+	border-radius:12px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	font-weight: normal;
+	padding:10px 18px;
+	text-decoration:none;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 355px;
+}
+
+.modifyBtn2 {
+    background-color:#2F535F;
+	border-radius:12px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	font-weight: normal;
+	padding:10px 18px;
+	text-decoration:none;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 355px;
+}
+
+.backBtn {
+    background-color:#c4bebe;
+	border-radius:12px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	font-weight: normal;
+	padding:10px 18px;
+	text-decoration:none;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 430px;
+}

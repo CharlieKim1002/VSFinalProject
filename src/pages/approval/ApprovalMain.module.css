@@ -1,0 +1,153 @@
+/* ==== 서브메뉴 ==== */
+
+
+.submenu {
+    /* background-color: aqua; */
+    width: 460px;
+    height: 100vh;
+    border-right: solid 1px #cfcfcf;
+    }
+    .submenu > h3 {
+       
+        color: #505050;
+        margin-top: 20px;
+        margin-left: 245px;
+    }
+    
+    .submenu > div> button {
+        margin-top: 10px;
+        background-color: transparent;
+        border: solid 2px #739CA5;
+        color: #739CA5;
+        height: 45px;
+        width: 45%;
+        border-radius: 10px;
+        font-weight: bold;
+          
+    
+    }
+    
+    .submenuDiv {
+        /* background-color: blue; */
+        margin: 18px;
+        margin-left: 245px;
+    }
+    
+    .submenuUl > li {
+        color: #505050;
+        /* margin-bottom: -29px; */
+        font-size:x-small;
+        font-weight: 200;
+        margin-left: -26px;
+    }
+    
+    
+    .submenuDiv > h6 {
+        /* background-color: yellowgreen; */
+        margin-bottom: 5px;
+        color:  #505050;
+    }
+    
+    /* ==== 컨텐츠 ==== */
+    
+     .mainCantent {
+        /* background-color: #505050; */
+        height: 100vh;
+        margin-left: 490px;
+        margin-right: 50px;
+        padding: 20px;
+        padding-top: 15px;
+
+        
+    } 
+    
+    /* 자주쓰는결재 */
+    
+    .contentForm {
+        margin-top: -1030px;
+        width: 1130px;
+        height: 130px;
+    }  
+    
+    .contentForm > pre {
+        padding-top: 15px; 
+        border-radius: 8px;
+
+    }
+
+        /* 아이콘 */
+        .contentForm > span {
+            padding: 20px;
+            padding-right: 50px;
+            padding-left:80px; 
+            /* background-color: #cfcfcf; */
+            float: left;
+            text-align: center;
+            
+    
+        }
+
+        .contentForm > span > button {
+         border : 0px;
+         background-color: #FFFFFF;
+            
+    
+        }
+
+    .mainCantent > div {
+        width: 1300px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+        padding: 20px;
+        padding-top: 15px; 
+        border-radius: 8px;
+        /* background-color: antiquewhite; */
+    }
+
+
+    
+    .mainCantent > div > p {
+        border-bottom: solid 1px #cfcfcf;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        color: #505050; ;
+    }
+    
+    
+    /* 전체 결재 목록 */
+    .contentList {
+        margin-top: 40px;
+        color: #505050;
+    
+        padding-left: 15px;
+    }
+    
+    
+    .approvalTable > thead > tr > th{
+        border-bottom: solid 1px #cfcfcf;
+        padding: 5px;
+        font-size: small;
+        padding-left: 10px;
+    }
+    
+    .approvalTable > tbody {
+        font-size: small;
+    }
+    
+    
+    .approvalTbody {
+        
+        /* background-color: #739CA5; */
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
